@@ -1,18 +1,22 @@
 ---
-title: "Voyant"
-author: "Nishtha Das"
-date: "9/16/2021"
+title: "DH Project 1: Voyant"
+author: "Group Members: Nishtha Das, Shreya Khobragade, Simran Dhiman"
+date: "Date: 19/09/2021"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-# Introduction
+### Research Hypothesis: 
+An exploration of the ways in which Jane Austen and Charles Dickens criticise marriage in their novels. 
 
-Hello World!
+### Corpus Description:
+We conducted a comparative study of Jane Austen and Charles Dickens’ novels. They were both contemporaries in the late 18th/early 19th century (and incredibly influential for the years to come), but the worlds they wrote about were disparate. The characters in Austen’s middle to upper-class society functioned very differently from the ones in Dickens’ slums and orphanages. Our interests lay in finding commonalities in their work as well as in the ideologies that underscored it, and we found our focus in their treatment of marriage. Both the authors deviate from the idea that marriage has to be central to one’s life, especially if one is a woman. They subtly, if not openly, criticise practices surrounding marriage in their respective social contexts. We patterned our corpus by including the year of publication in the title of the texts so they would be arranged temporally.
 
-![Ashoka University logo](https://www.ashoka.edu.in/admin_assets/global/images/logo/logo-ashoka.png)
+### Summary Paragraph: 
+Austen’s novels kept getting marginally longer in her early years, until Persuasion (1818), where the length took a sharp dip (approximately 74,000 words). Another sharp dip was noticed in Lady Susan (1871), where the length was reduced further by 50,000 words. However, the novels that are lowest in length have the highest vocabulary densities: perhaps she developed a more concise style of writing as her career progressed, and switched out lengthy descriptions for a few unique words. 
 
+Dickens’ body of work was more difficult to find patterns in. But all his available works were written in the time period between Persuasion and Lady Susan - Austen’s last two available novels. Like Austen, his last novel was lowest in length and highest in vocabulary density. However, his longest work (Dombey and Son) is more than double the length of Austen’s longest (Emma). This means we have a much, much larger sample of Dickens to work with: there are 15 novels as compared to Austen’s 7, and most of them span over longer lengths. We have tried to be mindful of this while doing our analysis as well.
 
 <iframe style='width: 1492px; height: 668px;' src='https://voyant-tools.org/tool/Contexts/?view=Contexts&query=marriage*&corpus=9bff29f50791ba5a386edf2a8c2b32b2' data-external = '1'></iframe>
